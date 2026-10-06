@@ -1,0 +1,25 @@
+<!-- Encabezado con menú de navegación principal -->
+<header>
+  <app-header></app-header>
+</header>
+
+<div class="container-fluid my-4">
+  <div class="row">
+    
+    <!-- Contenido principal -->
+    <main class="col-md-9 col-lg-9 ms-sm-auto px-md-4">
+      <router-outlet></router-outlet>
+    </main>
+
+    <!-- Barra lateral -->
+    <aside class="col-md-3 col-lg-3 bg-light p-3 border-start">
+      <app-aside></app-aside>
+    </aside>
+
+  </div>
+</div>
+
+<!-- Pie de página -->
+<footer class="mt-auto">
+  <app-footer></app-footer>
+</footer>
