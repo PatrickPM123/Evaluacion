@@ -1,1 +1,38 @@
-<p>estudiantes works!</p>
+<div class="container">
+  <h2 class="text-primary fw-bold mb-4">Información para Estudiantes</h2>
+  <div class="accordion" id="accordionEstudiantes">
+    <!-- Proceso de Matrícula -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#step1">
+          Proceso de Matrícula
+        </button>
+      </h2>
+      <div id="step1" class="accordion-collapse collapse show" data-bs-parent="#accordionEstudiantes">
+        <div class="accordion-body">
+          <ol>
+            <li>Rellena el formulario de preinscripción.</li>
+            <li>Realiza el examen de ubicación (si tienes conocimientos previos).</li>
+            <li>Realiza el pago correspondiente en caja o banca por internet.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <!-- Beneficios y Descuentos -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#step2">
+          Promociones y Beneficios
+        </button>
+      </h2>
+      <div id="step2" class="accordion-collapse collapse" data-bs-parent="#accordionEstudiantes">
+        <div class="accordion-body">
+          <ul class="list-unstyled">
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>20% de descuento para la comunidad universitaria Continental.</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Acceso gratuito a la biblioteca virtual de idiomas.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
